@@ -1,0 +1,35 @@
+# Telegram-фреймворк
+aiogram>=3.20.0,<4
+
+# Конфиг и валидация
+pydantic>=2.7,<3
+pydantic-settings>=2.2,<3
+python-dotenv>=1.0
+
+# Базы данных
+SQLAlchemy>=2.0.30,<3
+greenlet>=3.0
+asyncpg>=0.29
+aiosqlite>=0.20
+alembic>=1.13
+
+# Кэш / FSM / антиспам
+redis>=5.0
+
+# Планировщик
+APScheduler>=3.10,<4
+python-dateutil>=2.9
+
+# Визуал
+Pillow>=10.3
+matplotlib>=3.8
+Jinja2>=3.1
+
+# QR-коды
+qrcode[pil]>=7.4
+
+# Логирование
+structlog>=24.1
+
+# Транспорт
+aiohttp>=3.9
